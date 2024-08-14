@@ -1,0 +1,41 @@
+/* Styling for the variations table */
+.variations {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.variations th,
+.variations td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.variations th {
+    background-color: #f4f4f4;
+}
+
+.variations td select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reset_variations {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0071a1;
+    text-decoration: none;
+}
+
+.reset_variations:hover {
+    text-decoration: underline;
+}
+
+.stock.out-of-stock {
+    color: #b12704;
+    font-weight: bold;
+    margin: 10px 0;
+}
